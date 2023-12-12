@@ -1,0 +1,36 @@
+h1 {
+    color: red ;
+}
+
+li {
+    color: #0000ff;
+}
+li:last-child {color: aqua;}
+
+.breaking {
+    color: brown;
+}
+
+body{background-color: fuchsia;}
+body{font-family: Arial, Helvetica, sans-serif;}
+
+p1{
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background: yellow;
+}
+
+h1{
+    border: 2px solid black;
+    background: white;
+    padding: 0.5em;
+    margin: 0.5em;
+}
