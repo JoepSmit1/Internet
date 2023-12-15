@@ -9,6 +9,8 @@ p{
    margin: 5em;
    padding: 10px;
    width: fit-content;
+   border-radius: 20px;
+
 }
   
 
@@ -20,6 +22,11 @@ img {
     margin: 0 auto
 }   
 
+video {
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+}
 
 .nav {
    border: 2px solid black;
@@ -54,12 +61,6 @@ img {
    padding-bottom: 10px;
 }
 
-.niveau {
-   border: 2px solid black;
-   padding: 10px;
-   background: white;
-
-}
 
  .button {
     margin: 0 auto;
@@ -96,6 +97,11 @@ img {
     100% {
        transform: rotate(0deg);
     }
+ }
+
+table {
+   background: white;
+   border: 2px solid black;
  }
 
 ol{
@@ -156,4 +162,17 @@ ol{
  .white{
    background: white;
    width: fit-content;
+ }
+
+ .grepen{
+   display: flex;   
+ }
+
+ .grepen img {
+   flex-flow: row nowrap;
+   width: 250px;
+   margin: 0 auto;
+   margin-top: 15px;
+   border: solid white 10px;
+
  }
