@@ -1,64 +1,73 @@
+
+a{
+    font-weight: 700;
+}
+
+.background1{
+    background-image: url(Boulderenjoep.JPG);
+    background-size: cover;
+}
+
+.background2{
+    background-image: url(Boulderenlevels.jpg);
+    background-size: cover;
+}
+
+.background3{
+    background-image: url(Boulderengrepen.jpg);
+    background-size: cover;
+}
+
+.background4{
+    background-image: url(BoulderenLocaties.jpeg);
+    background-size: cover;
+}
+
+
 h1{
     display: flex;
     justify-content: center;
     color: aliceblue;
 }
 p{
-   border: 2px solid black;
-   background: white;
-   margin: 5em;
-   padding: 10px;
-   width: fit-content;
-   border-radius: 20px;
+    border: 2px solid black;
+    margin: 5em;
+    padding: 10px;
+    border-radius: 20px;
 
 }
-  
 
-img {
-    max-width: 50%;
-    height: 200px ;
-    justify-content: center;
-    display: flex;
-    margin: 0 auto
-}   
 
 video {
-   justify-content: center;
-   display: flex;
-   margin: 0 auto;
+    display: flex;
+    margin: 0 auto;
 }
 
-.nav {
-   border: 2px solid black;
-   background: white
-}
 
-.nav {
-    list-style-type: none;
+.intro {
     padding: 5px;
+    border: 2px solid black;
+    background: white;
     margin: 0 auto;
     width: fit-content;
     border-radius: 0.5em;
     display: flex;
     font-family: 'Times New Roman', Times, serif;
-    
-
+   
 }
 
-.nav li{
+.intro li{
     margin-right: 30px;
-    justify-content: center;
-    align-items: center;
 }
 
 .lijst {
-   background: white;
-   border: 2px solid black;
-   margin: 10px;
-   padding: 10px;
+    background: white;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
 }
 .lijst li {
-   padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -71,7 +80,6 @@ video {
     border: 4px solid white;
     padding: 0.5em;
     border-radius: 0.3em;
-    background: none;
     transition: all 250ms ease;
     display: block;
  }
@@ -100,79 +108,82 @@ video {
  }
 
 table {
-   background: white;
-   border: 2px solid black;
+    background: white;
+    border: 2px solid black;
  }
 
-ol{
-   background: white;
-}
 
- ul{
-   width: fit-content;
-   list-style-type: none;
+ul{
+    list-style-type: none;
 
 }
 
- .pink {
-   background: rgb(255, 0, 191);
-   color: white;
-   width: fit-content;
+.pink {
+    background: rgb(255, 0, 191);
+    color: white;
+    width: fit-content;
+  
  }
- .yellow {
-   background: yellow;
-   width: fit-content;
+.yellow {
+    background: yellow;
+    width: fit-content;
+   
  }
- .blue {
-   background: blue;
-   color: white;
-   width: fit-content;
- }
-
- .green{
-   background: green;
-   color: white;
-   width: fit-content;
+.blue {
+    background: blue;
+    color: white;
+    width: fit-content;
+   
  }
 
- .red {
-   background: red;
-   color: white;
-   width: fit-content;
+.green{
+    background: green;
+    color: white;
+    width: fit-content;
+    
  }
 
- .brown{
-   background: brown;
-   color: white;
-   width: fit-content;
+.red {
+    background: red;
+    color: white;
+    width: fit-content;
+    
  }
 
- .black{
-   background: black;
-   color: white;
-   width: fit-content;
+.brown{
+    background: brown;
+    color: white;
+    width: fit-content;
+   
  }
 
- .turquoise{
-   background: turquoise;
-   color: white;
-   width: fit-content;
+.black{
+    background: black;
+    color: white;
+    width: fit-content;
  }
 
- .white{
-   background: white;
-   width: fit-content;
+.turquoise{
+    background: turquoise;
+    color: white;
+    width: fit-content;
+   
  }
 
- .grepen{
-   display: flex;   
+.white{
+    background: white;
+    width: fit-content;
  }
 
- .grepen img {
-   flex-flow: row nowrap;
-   width: 250px;
-   margin: 0 auto;
-   margin-top: 15px;
-   border: solid white 10px;
+figure {
+    display: flex;   
+ }
+
+figure img {
+    width: 250px;
+    height: 200px ;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: solid white 10px;
 
  }
