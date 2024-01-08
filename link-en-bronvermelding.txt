@@ -4,7 +4,7 @@ Klas: Fuchsia
 Schooljaar: 2023/2024 Jaar 1
 
 LINK NAAR LIVE WEBSITE
-https://github.com/JoepSmit1/Internet.git
+https://joepsmit1.github.io/Internet/
 
 BRONVERMELDING
 1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
